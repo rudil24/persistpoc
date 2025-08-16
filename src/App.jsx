@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import CelebrationIcon from '@mui/icons-material/Celebration';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -24,7 +25,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-        <p> rudil24: hey this Hot Module Replacement (HMR) feature is pretty cool! I edited on the fly!</p>
+        <p> rudil24: hey this Hot Module Replacement (HMR) feature is pretty cool! <CelebrationIcon /> I edited on the fly!</p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
