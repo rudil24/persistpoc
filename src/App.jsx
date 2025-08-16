@@ -97,7 +97,7 @@ function App() {
             
             <div className="button-container">
               <button type="submit" className="button submit-button">
-                Submit All 18 Lines
+                Submit All {NUMBER_OF_LINES} Lines
               </button>
               <button type="button" onClick={handleClearForm} className="button clear-button">
                 Clear Form & Saved Draft
